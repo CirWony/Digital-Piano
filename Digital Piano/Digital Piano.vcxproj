@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DAC.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="Piano.c" />
+    <ClCompile Include="Sound.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DAC.h" />
+    <ClInclude Include="Piano.h" />
+    <ClInclude Include="Sound.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
